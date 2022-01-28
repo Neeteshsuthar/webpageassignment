@@ -1,0 +1,164 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#-main-banner {
+	width: 1120px;
+	height: 700px;
+	background-image: linear-gradient(230deg, #2d3258, #00c5b1);
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 40px;
+}
+#-navbar {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#-logo {
+	color: white;
+	font-family: fantasy;
+	font-weight: 500;
+	margin-bottom: 100px;
+}
+li {
+	display: inline-block;
+	margin-left: 35px;
+	padding-top: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+	color: rgb(197, 197, 197);
+}
+
+#-heading-banner {
+	font-size: 65px;
+	color: white;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: right;
+	margin-top: 180px;
+	font-weight: 700;
+}
+#-para-banner {
+	font-size: 47px;
+	color: rgb(202, 200, 200);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: right;
+	font-weight: 500;
+	line-height: 50px;
+	word-spacing: 1px;
+}
+button {
+	width: 200px;
+	height: 55px;
+	color: white;
+	border-radius: 3px;
+	margin-top: 80px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#-btn-1 {
+	background-color: transparent;
+	border: 2px solid white;
+	margin-left: 110px;
+}
+#-btn-1:hover {
+	background-color: white;
+	color: black;
+}
+
+#-btn-2 {
+	background-color: #00c5b1;
+	border: 2px solid #00c5b1;
+	margin-left: 50px;
+    color: black;
+}
+#-btn-2:hover {
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+/* what is issue report? section  */
+
+#-main-sec-2 {
+	width: 1120px;
+	padding: 50px 150px 50px 150px;
+	height: 520px;
+	
+}
+
+#-heading{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#-paragraph{
+    font-size: 25px;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    margin-top: 30px;
+}
+.-columns{
+    display: inline-block;
+    width: 285px;
+   
+    height: 280px;
+  
+    margin-top: 80px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.-numbers{
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    padding: 10px;
+}
+.-numbers:hover{
+    background-color: black;
+    color: white;
+
+}
+.-column-para{
+    color: rgb(131, 131, 131);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+/* features */
+
+#-main-features-sec{
+    width: 1120;
+    height: 600px;
+    background-color: #2d3258;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#-heading-features{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+#-paragraph-features{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
